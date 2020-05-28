@@ -1,0 +1,45 @@
+
+.flip-container {
+    display: flex;
+    justify-content: center;
+}
+.flip-container .flip {
+    margin: 0 15px;
+ 	height: 300px;
+    width: 300px;
+}
+.flip img {
+    width: 300px;
+    height: 300px;
+}
+.flip .back {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10%;
+    width: 80%!important;
+    max-height: 80%!important;
+}
+.flip .back h3{
+	margin-top: 0;
+}
+p.social-icon a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0 10px;
+}
+p.lear-more a {
+    background: #fff;
+    display: inline-block;
+    color: #222;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: .5s linear;
+}
+p.lear-more a:hover{
+	background: #ddd;
+}
